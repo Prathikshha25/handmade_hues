@@ -5,9 +5,8 @@ import StitchLine from "./StitchLine";
 import InstagramIcon from "./InstagramIcon";
 
 const CONTACT_LINKS = [
-  { icon: InstagramIcon, label: "Instagram", value: "@handmadehues (placeholder)", href: "#" },
-  { icon: MessageCircle, label: "WhatsApp", value: "+91 00000 00000 (placeholder)", href: "#" },
-  { icon: Mail, label: "Email", value: "hello@handmadehues.example (placeholder)", href: "#" },
+  { icon: InstagramIcon, label: "Instagram", value: "@_.handmade._.hues", href: "#" },
+  { icon: MessageCircle, label: "WhatsApp", value: "+91 96777 87874", href: "#" },
 ];
 
 export default function Contact() {
