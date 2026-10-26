@@ -9,13 +9,13 @@ const CONTACT_LINKS = [
     icon: InstagramIcon,
     label: "Instagram",
     value: "@_.handmade._.hues",
-    href: "#",
+    href: "https://www.instagram.com/_.handmade._.hues/",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
     value: "+91 96777 87874",
-    href: "#",
+    href: "https://wa.me/919677787874",
   },
 ];
 
@@ -70,12 +70,11 @@ export default function Contact() {
             {CONTACT_LINKS.map((link) => (
               <li key={link.label}>
                 <a
-                  href={link.href}
-                  className="flex items-center gap-3 group"
-                  onClick={(e) =>
-                    link.href === "#" && e.preventDefault()
-                  }
-                >
+  href={link.href}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-3 group"
+>
                   <span className="w-10 h-10 rounded-full bg-cream border border-beige flex items-center justify-center group-hover:border-terracotta transition-colors">
                     <link.icon
                       size={17}
